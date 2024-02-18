@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "/home/kevinsdj/Escritorio/myprojects/cwb-private/app/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/home/kevinsdj/Escritorio/myprojects/cwb-private/app/frontend/generated/jar-resources",
+  "staticOutput": "/home/kevinsdj/Escritorio/myprojects/cwb-private/app/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "/home/kevinsdj/Escritorio/myprojects/cwb-private/app/target/classes/META-INF/VAADIN/config",
+  "frontendBundleOutput": "/home/kevinsdj/Escritorio/myprojects/cwb-private/app/target/classes/META-INF/VAADIN/webapp",
+  "devBundleOutput": "/home/kevinsdj/Escritorio/myprojects/cwb-private/app/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "/home/kevinsdj/Escritorio/myprojects/cwb-private/app/target/dev-bundle/config",
+  "jarResourcesFolder": "/home/kevinsdj/Escritorio/myprojects/cwb-private/app/frontend/generated/jar-resources",
+  "themeName": "cwb",
+  "clientServiceWorkerSource": "/home/kevinsdj/Escritorio/myprojects/cwb-private/app/target/sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
