@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import com.app.module.users.data.User;
 import com.app.module.users.data.UserRepository;
 import reactor.test.StepVerifier;
 

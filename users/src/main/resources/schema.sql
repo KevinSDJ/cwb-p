@@ -1,3 +1,4 @@
+drop table if exists users_roles;
 drop table if exists users;
 drop table if exists roles;
 
@@ -12,10 +13,12 @@ create table users (
     surname  varchar(80) not null,
     fullname varchar(120) not null unique,
     email varchar(70) not null unique,
-    password varchar(60) not null,
-    constraint fk_role foreign key(role_id) references role(id)
+    password varchar(60) not null
 );
 
 create table users_roles (
-    con
-)
+    user_id uuid references users(id) on delete cascade,
+    role_id INTEGER references roles(id) on delete cascade,
+    unique(user_id,role_id),
+    primary key(user_id,role_id)
+);

@@ -9,11 +9,14 @@ import org.springframework.r2dbc.connection.init.ConnectionFactoryInitializer;
 import org.springframework.r2dbc.connection.init.ResourceDatabasePopulator;
 import io.r2dbc.spi.ConnectionFactory;
 
+
 @SpringBootApplication
 public class UsersApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(UsersApplication.class, args);
 	}
+
+	
 
 	@Bean
 	ConnectionFactoryInitializer initializer(ConnectionFactory connectionFactory) {
@@ -25,5 +28,7 @@ public class UsersApplication {
 		init.setConnectionFactory(connectionFactory);
 		return init;
 	}
+
+	
 
 }
