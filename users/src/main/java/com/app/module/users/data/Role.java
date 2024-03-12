@@ -1,19 +1,17 @@
 package com.app.module.users.data;
 
-import java.util.UUID;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
-
+import jakarta.annotation.Nonnull;
 import lombok.Builder;
 import lombok.Data;
-import lombok.NonNull;
 
 @Data
 @Builder
-@Table("USER")
-public class User {
+@Table("roles")
+public class Role {
     
     @Id
-    private UUID id;
-    private @NonNull String name;
+    private long id;
+    private @Nonnull String name;
 }

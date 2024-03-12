@@ -13,7 +13,8 @@ create table users (
     surname  varchar(80) not null,
     fullname varchar(120) not null unique,
     email varchar(70) not null unique,
-    password varchar(60) not null
+    password varchar(60) not null,
+    picture_profile bytea
 );
 
 create table users_roles (

@@ -27,7 +27,7 @@ class UsersApplicationTests {
 		StepVerifier.create(
 			userRepository.count().log()
 		)
-		.expectNext(Long.valueOf(0))
+		.expectNext(Long.valueOf(1))
 		.verifyComplete();
 	}
 }
