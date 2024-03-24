@@ -10,5 +10,6 @@ public interface IUserService {
     Flux<Collection<UserEntity>> getAllUsers();
     Flux<Collection<UserWithRole>> getAllUsersWithRol();
     Mono<UserEntity> getUserByEmail(@Nonnull String email);
+    Mono<Long> getUsersQuantity();
 
 }
